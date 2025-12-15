@@ -1,8 +1,15 @@
-.focusOutline{
-    outline: solid 2px var(--blue-400);
-    outline-offset: 2px;
+/* --- Buttons --- */
+.buttonStyle {
+  padding: 5px;
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.5;
 }
 
+/* ---- Variations ---- */
+
+/* primary button */
 .primaryActionButton{
     background-color: var(--blue-400);
     color: var(--gray-100);
@@ -12,11 +19,44 @@
     background-color: var(--blue-700);
 }
 
+/* Secondary button */
 .secondaryActionButton{
     background-color: var(--navy-700);
 }
+.secondaryActionButton:hover{
+    background-color: var(--gray-800);
+}
 
+/* Tertiary button */
 .tertiaryActionButton{
     background-color: var(--mint-dark);
 }
 
+.tertiaryActionButton:hover{
+    background-color: var(--mint-darkest);
+}
+
+/* warning button */
+.warningActionButton{
+    color: var(--yellow-dark);
+    background-color: var(--yellow-marygold);
+}
+
+.warningActionButton:hover{
+    background-color: var(--yellow-dark);
+}
+
+/* negative button */
+
+.negativeActionButton{
+    background-color: var(--red-error);
+}
+
+.negativeActionButton{
+    background-color: var(--red-dark);
+}
+
+.disabled{
+    color: var(--gray-500);
+    background-color: var(--gray-300);
+}

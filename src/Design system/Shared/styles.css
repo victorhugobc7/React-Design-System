@@ -2,6 +2,11 @@
     border-radius: 0;
 }
 
+.focusOutline{
+    outline: solid 2px var(--blue-400);
+    outline-offset: 2px;
+}
+
 /* --- Titles --- */
 .title1 {
   font-family: 'Noto Sans', sans-serif;
@@ -74,13 +79,4 @@
   line-height: 1.5;
   text-decoration: underline;
   color: var(--hyperlink-color);
-}
-
-/* --- Buttons --- */
-.buttonStyle {
-  font-family: 'Noto Sans', sans-serif;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.5;
-  color: var(--button-text-color);
 }

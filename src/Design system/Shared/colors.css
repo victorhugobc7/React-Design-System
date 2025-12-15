@@ -33,6 +33,7 @@
   --mint-light: #B2F5F2;
   --mint-medium: #51C9C7;
   --mint-dark: #2C7A7B;
+  --mint-darkest: #285E61;
 
   /* --- Positive (Greens) --- */
   --green-light: #9AE6B4;
@@ -41,8 +42,10 @@
   /* --- Warning (Yellows) --- */
   --yellow-light: #FFE999;
   --yellow-marigold: #FFC701;
+  --yellolw-dark: #744210;
 
   /* --- Negative (Reds) --- */
   --red-light: #FEB5B2;
   --red-error: #C53530;
+  --red-dark: #742C2A;
 }
