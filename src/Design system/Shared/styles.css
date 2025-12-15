@@ -1,0 +1,86 @@
+:root{
+    border-radius: 0;
+}
+
+/* --- Titles --- */
+.title1 {
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 700; /* bold */
+  font-size: 56px;
+  line-height: 1.5;
+  color: var(--primary-text-color);
+}
+
+.title2 {
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 1.5;
+  color: var(--primary-text-color);
+}
+
+.title3 {
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 1.5;
+  color: var(--primary-text-color);
+}
+
+.title4 {
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.5;
+  color: var(--primary-text-color);
+}
+
+/* --- Body/Paragraphs and Labels (Color inherits if not specified) --- */
+.labelTextStyle {
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.bodyLarge {
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 400; /* normal */
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.bodyRegular {
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* --- Hyperlinks --- */
+.baseHyperlink {
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  text-decoration: underline;
+  color: var(--hyperlink-color);
+}
+
+.smallHyperlink {
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.5;
+  text-decoration: underline;
+  color: var(--hyperlink-color);
+}
+
+/* --- Buttons --- */
+.buttonStyle {
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.5;
+  color: var(--button-text-color);
+}

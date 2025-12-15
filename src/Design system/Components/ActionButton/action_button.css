@@ -1,0 +1,22 @@
+.focusOutline{
+    outline: solid 2px var(--blue-400);
+    outline-offset: 2px;
+}
+
+.primaryActionButton{
+    background-color: var(--blue-400);
+    color: var(--gray-100);
+}
+
+.primaryActionButton:hover{
+    background-color: var(--blue-700);
+}
+
+.secondaryActionButton{
+    background-color: var(--navy-700);
+}
+
+.tertiaryActionButton{
+    background-color: var(--mint-dark);
+}
+
