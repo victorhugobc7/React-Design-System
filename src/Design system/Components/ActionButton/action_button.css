@@ -19,13 +19,16 @@
     background-color: var(--blue-700);
 }
 
+
 /* Secondary button */
 .secondaryActionButton{
     background-color: var(--navy-700);
 }
+
 .secondaryActionButton:hover{
     background-color: var(--gray-800);
 }
+
 
 /* Tertiary button */
 .tertiaryActionButton{
@@ -35,6 +38,7 @@
 .tertiaryActionButton:hover{
     background-color: var(--mint-darkest);
 }
+
 
 /* warning button */
 .warningActionButton{
@@ -46,8 +50,8 @@
     background-color: var(--yellow-dark);
 }
 
-/* negative button */
 
+/* negative button */
 .negativeActionButton{
     background-color: var(--red-error);
 }
@@ -55,6 +59,7 @@
 .negativeActionButton{
     background-color: var(--red-dark);
 }
+
 
 .disabled{
     color: var(--gray-500);
