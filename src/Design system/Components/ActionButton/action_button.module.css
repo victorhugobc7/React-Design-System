@@ -1,7 +1,6 @@
 /* --- Buttons --- */
 .buttonStyle {
   padding: 7px 20px;
-  font-family: 'Noto Sans', sans-serif;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.5;
@@ -64,7 +63,7 @@
     background-color: var(--red-error);
 }
 
-.negativeActionButton{
+.negativeActionButton:hover{
     background-color: var(--red-dark);
 }
 
