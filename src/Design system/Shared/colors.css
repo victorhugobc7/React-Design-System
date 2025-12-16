@@ -13,6 +13,7 @@
   --gray-400: #CFD7E3;
   --gray-500: #A0ACBD;
   --gray-600: #7A889E;
+  --gray-800: #2C3A4A;
 
   /* --- Action - Primary (Blues) --- */
   --blue-100: #EBF7FF;
@@ -42,7 +43,8 @@
   /* --- Warning (Yellows) --- */
   --yellow-light: #FFE999;
   --yellow-marigold: #FFC701;
-  --yellolw-dark: #744210;
+  --yellow-dark: #EDAE01;
+  --yellow-darkest: #744210;
 
   /* --- Negative (Reds) --- */
   --red-light: #FEB5B2;

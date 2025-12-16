@@ -1,10 +1,19 @@
 /* --- Buttons --- */
 .buttonStyle {
-  padding: 5px;
+  padding: 7px 20px;
   font-family: 'Noto Sans', sans-serif;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.5;
+  border: none;
+  cursor: pointer;
+  color: var(--gray-100);
+  margin: 3px;
+}
+
+.buttonStyle:focus {
+    outline: solid 2px var(--blue-400);
+    outline-offset: 2px;
 }
 
 /* ---- Variations ---- */
@@ -12,7 +21,6 @@
 /* primary button */
 .primaryActionButton{
     background-color: var(--blue-400);
-    color: var(--gray-100);
 }
 
 .primaryActionButton:hover{
@@ -42,8 +50,8 @@
 
 /* warning button */
 .warningActionButton{
-    color: var(--yellow-dark);
-    background-color: var(--yellow-marygold);
+    color: var(--yellow-darkest);
+    background-color: var(--yellow-marigold);
 }
 
 .warningActionButton:hover{
@@ -60,8 +68,14 @@
     background-color: var(--red-dark);
 }
 
+/* disabled button */
 
-.disabled{
+.disabledActionButton{
     color: var(--gray-500);
     background-color: var(--gray-300);
+    cursor: not-allowed;
+}
+
+.disabledActionButton{
+    outline: none !important;
 }

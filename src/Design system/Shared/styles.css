@@ -2,11 +2,6 @@
     border-radius: 0;
 }
 
-.focusOutline{
-    outline: solid 2px var(--blue-400);
-    outline-offset: 2px;
-}
-
 /* --- Titles --- */
 .title1 {
   font-family: 'Noto Sans', sans-serif;
