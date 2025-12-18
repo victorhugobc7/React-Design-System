@@ -1,18 +1,8 @@
-.card {
-    position: relative;
-    display: flex;
+.card{
     background-color: var(--gray-100);
     border-right: 4px solid var(--blue-500);
-    border-radius: 4px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
-    overflow: hidden;
     max-width: 480px;
-    z-index: 1;
-}
-
-.cardBody {
-    flex: 1;
-    padding: 24px;
+    padding: 0px;
 }
 
 .cardTitle {
@@ -54,4 +44,9 @@
     white-space: nowrap;
     margin: 0;
     text-wrap: balance;
+}
+
+.cardBody {
+    flex: 1;
+    padding: 24px;
 }
