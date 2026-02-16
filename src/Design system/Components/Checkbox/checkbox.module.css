@@ -1,0 +1,29 @@
+.text{
+    font-weight: 600;
+    color: var(--primary-ink);
+}
+
+.customCheckbox{
+  appearance: none;
+  height: 16px;
+  width: 16px;
+  border: 2px solid var(--primary-ink);
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+.customCheckbox:checked{
+    background-color:var(--blue-500);
+    border: 2px solid var(--blue-500);
+}
+
+.customCheckbox:checked::after {
+  content: "";
+  display: block;
+  width: 3px;
+  height: 8px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+  margin-left: 4px;
+}
